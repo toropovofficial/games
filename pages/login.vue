@@ -1,7 +1,10 @@
-<script lang="ts"></script>
+<script lang="ts" setup>
+const inputValue = ref('0')
+</script>
 
 <template>
-	<CustomInput />
+	{{ inputValue }}
+	<CustomInput v-model="inputValue" />
 
-	<CustomInput />
+	<CustomInput v-model="inputValue" />
 </template>
