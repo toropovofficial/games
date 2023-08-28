@@ -1,0 +1,21 @@
+// Grig
+$container-paddings: 18px;
+
+// Breakpoints
+$mobile-small: 'screen and (max-width: 330px)';
+$mobile-normal: 'screen and (min-width: 360px)';
+$mobile-large: 'screen and (min-width: 375px)';
+$mobile-landscape: 'screen and (min-width: 576px)';
+$mobile-landscape-large: 'screen and (min-width: 640px)';
+$tablet: 'screen and (min-width: 768px)';
+$laptop: 'screen and (min-width: 992px)';
+$desktop: 'screen and (min-width: 1440px)';
+$retina: '(min-resolution: 1.5dppx), (min-resolution: 144dpi)';
+
+$max-mobile-normal: 'screen and (max-width: 359px)';
+$max-mobile-landscape: 'screen and (max-width: 575px)';
+$max-tablet: 'screen and (max-width: 767px)';
+$max-laptop: 'screen and (max-width: 991px)';
+$max-desktop: 'screen and (max-width: 1439px)';
+
+$base-font: 'Open Sans', Arial, Roboto, Segoe UI, Helvetica Neue, -apple-system, BlinkMacSystemFont, sans-serif;

@@ -1,0 +1,19 @@
+{
+	"extends": ["@nuxtjs/eslint-config-typescript", "prettier", "plugin:prettier/recommended"],
+	"plugins": ["prettier"],
+	"rules": {
+		"prettier/prettier": "error",
+		"vue/multi-word-component-names": "off",
+		"vue/no-v-html": "off",
+		"vue/no-setup-props-destructure": "off",
+		"vue/attribute-hyphenation": "off",
+		"import/first": "off",
+		"import/no-named-as-default": "off",
+		"vue/v-on-style": "off",
+		"no-prototype-builtins": "off",
+		"vue/no-multiple-template-root": "off",
+		"vue/no-deprecated-slot-attribute": "off",
+		"vue/no-v-text-v-html-on-component": "off",
+		"vue/v-on-event-hyphenation": "off"
+	}
+}
