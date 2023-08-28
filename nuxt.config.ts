@@ -15,13 +15,9 @@ export default defineNuxtConfig({
 			testVar: 'test',
 		},
 	},
-	build: {
-		transpile: ['vuetify'],
-	},
 	components: ['~/components'],
 	css: [
 		'@/assets/styles/main.scss',
-		'vuetify/lib/styles/main.sass',
 		// `@/products/stellare2/assets/styles/vars.css`,
 	],
 })
